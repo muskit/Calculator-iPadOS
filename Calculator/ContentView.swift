@@ -1,26 +1,29 @@
-//
-//  ContentView.swift
-//  Calculator
-//
-//  Created by Alex on 1/29/23.
-//
-
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Rectangle()
+                .foregroundColor(Color(UIColor.systemBackground))
+                .ignoresSafeArea()
+            GeometryReader { geom in
+                VStack(alignment: .leading, spacing: 0) {
+                    HStack (alignment: .bottom, spacing: 0) {
+                        Display()
+                            .frame(height: geom.size.height/3)
+                    }
+                    KeypadVertical()
+                }
+            }
+            .ignoresSafeArea(edges: .bottom)
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }

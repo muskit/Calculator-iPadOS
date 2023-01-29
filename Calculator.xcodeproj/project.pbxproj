@@ -11,6 +11,12 @@
 		FA49A655298708A800AD152C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A654298708A800AD152C /* ContentView.swift */; };
 		FA49A657298708A900AD152C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA49A656298708A900AD152C /* Assets.xcassets */; };
 		FA49A65A298708A900AD152C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA49A659298708A900AD152C /* Preview Assets.xcassets */; };
+		FA49A666298709DB00AD152C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A660298709DB00AD152C /* Calculator.swift */; };
+		FA49A667298709DB00AD152C /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A661298709DB00AD152C /* Display.swift */; };
+		FA49A668298709DB00AD152C /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A662298709DB00AD152C /* Key.swift */; };
+		FA49A669298709DB00AD152C /* KeypadVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A663298709DB00AD152C /* KeypadVertical.swift */; };
+		FA49A66A298709DB00AD152C /* KeyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A664298709DB00AD152C /* KeyButtonStyle.swift */; };
+		FA49A66B298709DB00AD152C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49A665298709DB00AD152C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		FA49A654298708A800AD152C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA49A656298708A900AD152C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA49A659298708A900AD152C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA49A660298709DB00AD152C /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FA49A661298709DB00AD152C /* Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		FA49A662298709DB00AD152C /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		FA49A663298709DB00AD152C /* KeypadVertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadVertical.swift; sourceTree = "<group>"; };
+		FA49A664298709DB00AD152C /* KeyButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButtonStyle.swift; sourceTree = "<group>"; };
+		FA49A665298709DB00AD152C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				FA49A652298708A800AD152C /* CalculatorApp.swift */,
 				FA49A654298708A800AD152C /* ContentView.swift */,
+				FA49A660298709DB00AD152C /* Calculator.swift */,
+				FA49A661298709DB00AD152C /* Display.swift */,
+				FA49A665298709DB00AD152C /* Extensions.swift */,
+				FA49A662298709DB00AD152C /* Key.swift */,
+				FA49A664298709DB00AD152C /* KeyButtonStyle.swift */,
+				FA49A663298709DB00AD152C /* KeypadVertical.swift */,
 				FA49A656298708A900AD152C /* Assets.xcassets */,
 				FA49A658298708A900AD152C /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA49A655298708A800AD152C /* ContentView.swift in Sources */,
+				FA49A669298709DB00AD152C /* KeypadVertical.swift in Sources */,
+				FA49A668298709DB00AD152C /* Key.swift in Sources */,
+				FA49A66B298709DB00AD152C /* Extensions.swift in Sources */,
+				FA49A66A298709DB00AD152C /* KeyButtonStyle.swift in Sources */,
 				FA49A653298708A800AD152C /* CalculatorApp.swift in Sources */,
+				FA49A667298709DB00AD152C /* Display.swift in Sources */,
+				FA49A666298709DB00AD152C /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

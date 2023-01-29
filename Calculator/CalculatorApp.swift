@@ -15,3 +15,10 @@ struct CalculatorApp: App {
         }
     }
 }
+
+struct CalculatorPreviews : PreviewProvider {
+    static var previews: some View {
+            ContentView()
+            .preferredColorScheme(.dark)
+        }
+}
